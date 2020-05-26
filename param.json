@@ -1,0 +1,611 @@
+{
+  "no_wp": "WP-0002",
+  "step3": [
+    {
+      "t_wp_formulir_2_id": "2bea5b6a-6826-424c-8240-1a0d73e40d19",
+      "isactive": "Y",
+      "created": "2020-05-23T15:53:30.269Z",
+      "createdby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+      "updated": "2020-05-23T15:53:30.269Z",
+      "updatedby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+      "t_wp_id": "e4b9d028-eb9a-4167-a377-de0c35c5c6e8",
+      "nama_pelaksana": "Rajin",
+      "r_tugas_pokok_id": {
+        "r_tugas_pokok_id": "42b24ebd-7865-4ce3-a2a5-1e232f2ae740",
+        "isactive": "Y",
+        "created": "2020-01-14T16:48:35.346Z",
+        "createdby": "caf1bec6-64d3-42d7-88bc-a00a137c7d1e",
+        "updated": "2020-01-14T16:48:35.346Z",
+        "updatedby": "caf1bec6-64d3-42d7-88bc-a00a137c7d1e",
+        "nama": "Eksekutor"
+      },
+      "r_kondisi_jasmani_id": {
+        "r_kondisi_jasmani_id": "bf1bcfa0-4132-4bfb-af54-241d21a4bc2e",
+        "isactive": "Y",
+        "created": "2020-01-14T16:59:31.499Z",
+        "createdby": "caf1bec6-64d3-42d7-88bc-a00a137c7d1e",
+        "updated": "2020-01-14T16:59:31.499Z",
+        "updatedby": "caf1bec6-64d3-42d7-88bc-a00a137c7d1e",
+        "nama": "SEHAT"
+      },
+      "r_kondisi_rohani_id": {
+        "r_kondisi_rohani_id": "30ec1d38-07eb-4a79-93db-84ead43efb2a",
+        "isactive": "Y",
+        "created": "2020-01-14T17:00:28.727Z",
+        "createdby": "caf1bec6-64d3-42d7-88bc-a00a137c7d1e",
+        "updated": "2020-01-14T17:00:28.727Z",
+        "updatedby": "caf1bec6-64d3-42d7-88bc-a00a137c7d1e",
+        "nama": "SIAP"
+      },
+      "r_disiplin_id": {
+        "r_disiplin_id": "c6f4b6a1-047d-4cb2-9d70-cbf554cbd2ef",
+        "isactive": "Y",
+        "created": "2020-01-14T16:55:50.047Z",
+        "createdby": "caf1bec6-64d3-42d7-88bc-a00a137c7d1e",
+        "updated": "2020-01-14T16:55:50.047Z",
+        "updatedby": "caf1bec6-64d3-42d7-88bc-a00a137c7d1e",
+        "nama": "Baik",
+        "kode": "B"
+      },
+      "r_penguasaaan_kompetensi_id": {
+        "r_penguasaaan_kompetensi_id": "4778dac3-98ea-4831-86b8-e161a984ed4c",
+        "isactive": "Y",
+        "created": "2020-01-14T16:58:06.387Z",
+        "createdby": "caf1bec6-64d3-42d7-88bc-a00a137c7d1e",
+        "updated": "2020-01-14T16:58:06.387Z",
+        "updatedby": "caf1bec6-64d3-42d7-88bc-a00a137c7d1e",
+        "kode": "V",
+        "nama": "Kompeten"
+      },
+      "signature": "data:image/png;base64,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AIdxthcFhhL4MbBRQWdnA3sNFYj9KKCAAgqkK2ACmO7cGJkCTQUeBbyz5KK7Ap9r2qj1FVBAAQWmJ2ACOL05dUTzFSjb/uUo4PD50jhyBRRQQIFFARNA7wcFpiNQdPrHmcBDpjNMR6KAAgoosKqACeCqgl6vQBoC+wGn5oTyHSBOBrEooLpO534AAANtSURBVIACCijwGwETQG8GBaYhcDJwQM5QjsxOBpnGKB2FAgoooEAnAiaAnTDaiAJrFbgt8LWcCH4C3HCtkdm5AgoooECSAiaASU6LQSnQSOCNwME5V7wCeHajlqysgAIKKDALARPAWUyzg5ywwB8Cv8wZ39XA9sC3Jzx2h6aAAgoo0FLABLAlnJcpkIhA0dYvrwKelUiMhqGAAgookJiACWBiE2I4CjQUuK6g/n2BOBbOooACCiigwO8ImAB6UygwXoGip3+u/B3vnBq5AgooMIiACeAgzHaiQC8CceZvnP27XLYFLuulRxtVQAEFFJiEgAngJKbRQcxY4DjgoIXxnw/sOmMPh66AAgooUEPABLAGklUUSFxga2B/4EPAhYnHangKKKCAAgkImAAmMAmGoIACCiiggAIKDClgAjiktn0poIACCiiggAIJCJgAJjAJhqCAAgoooIACCgwpYAI4pLZ9KaCAAgoooIACCQiYACYwCYaggAIKKKCAAgoMKWACOKS2fSmggAIKKKCAAgkImAAmMAmGoIACCiiggAIKDClgAjiktn0poIACCiiggAIJCJgAJjAJhqCAAgoooIACCgwpYAI4pLZ9KaCAAgoooIACCQiYACYwCYaggAIKKKCAAgoMKWACOKS2fSmggAIKKKCAAgkImAAmMAmGoIACCiiggAIKDClgAjiktn0poIACCiiggAIJCJgAJjAJhqCAAgoooIACCgwpYAI4pLZ9KaCAAgoooIACCQiYACYwCYaggAIKKKCAAgoMKWACOKS2fSmggAIKKKCAAgkImAAmMAmGoIACCiiggAIKDClgAjiktn0poIACCiiggAIJCJgAJjAJhqCAAgoooIACCgwpYAI4pLZ9KaCAAgoooIACCQiYACYwCYaggAIKKKCAAgoMKWACOKS2fSmggAIKKKCAAgkImAAmMAmGoIACCiiggAIKDClgAjiktn0poIACCiiggAIJCJgAJjAJhqCAAgoooIACCgwpYAI4pLZ9KaCAAgoooIACCQiYACYwCYaggAIKKKCAAgoMKWACOKS2fSmggAIKKKCAAgkImAAmMAmGoIACCiiggAIKDClgAjiktn0poIACCiiggAIJCJgAJjAJhqCAAgoooIACCgwpYAI4pLZ9KaCAAgoooIACCQj8L3ChXhxS85BPAAAAAElFTkSuQmCC",
+      "line": 1,
+      "alatpengaman": [
+        {
+          "r_alat_pengaman_id": "7dcc834b-f759-4bb4-a69a-d7f32e233499",
+          "isactive": "Y",
+          "created": "2019-12-08T06:20:50.945Z",
+          "createdby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "updated": "2019-12-08T06:20:50.945Z",
+          "updatedby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "r_jenis_pengaman_id": "5ef6745e-8461-47a9-a2d6-f0f485a19bb1",
+          "nama": "Helm Pengaman",
+          "line": 1,
+          "type_component": "checkbox",
+          "type": "APD",
+          "value": false
+        },
+        {
+          "r_alat_pengaman_id": "e7b0335b-bbb2-44f5-93f5-6b14d99c3c7f",
+          "isactive": "Y",
+          "created": "2019-12-08T05:47:04.218Z",
+          "createdby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "updated": "2019-12-08T05:47:04.218Z",
+          "updatedby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "r_jenis_pengaman_id": "b7512390-6999-4eca-9ebb-c9b31d7adf95",
+          "nama": "Kacamata Tahan Silau",
+          "line": 2,
+          "type_component": "checkbox",
+          "type": "APD",
+          "value": false
+        },
+        {
+          "r_alat_pengaman_id": "73c358d9-3d29-4288-ad29-c27d82a2da4b",
+          "isactive": "Y",
+          "created": "2019-12-08T05:47:22.897Z",
+          "createdby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "updated": "2019-12-08T05:47:22.897Z",
+          "updatedby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "r_jenis_pengaman_id": "b7512390-6999-4eca-9ebb-c9b31d7adf95",
+          "nama": "Pakaian Kerja",
+          "line": 3,
+          "type_component": "checkbox",
+          "type": "PKD",
+          "value": false
+        },
+        {
+          "r_alat_pengaman_id": "4af27af1-a084-4052-bb9a-6bb5179e6249",
+          "isactive": "Y",
+          "created": "2019-12-08T05:49:33.254Z",
+          "createdby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "updated": "2019-12-08T05:49:33.254Z",
+          "updatedby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "r_jenis_pengaman_id": "5742dd83-a515-466d-a936-5c341e850315",
+          "nama": "Sabuk Pengaman",
+          "line": 4,
+          "type_component": "checkbox",
+          "type": "APD",
+          "value": false
+        },
+        {
+          "r_alat_pengaman_id": "daabf56e-d689-4b18-ac10-7d0425633a8a",
+          "isactive": "Y",
+          "created": "2019-12-22T10:45:39.172Z",
+          "createdby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "updated": "2019-12-22T10:45:39.172Z",
+          "updatedby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "r_jenis_pengaman_id": "5ef6745e-8461-47a9-a2d6-f0f485a19bb1",
+          "nama": "Sarung Tangan Kulit",
+          "line": 5,
+          "type_component": "checkbox",
+          "type": "APD",
+          "value": false
+        },
+        {
+          "r_alat_pengaman_id": "62ef5d44-323b-4fd2-bd22-446252087a80",
+          "isactive": "Y",
+          "created": "2019-12-22T11:31:53.848Z",
+          "createdby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "updated": "2019-12-22T11:31:53.848Z",
+          "updatedby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "r_jenis_pengaman_id": "5742dd83-a515-466d-a936-5c341e850315",
+          "nama": "Sarung Tangan Tahan Tegangan 1 kV/20kV",
+          "line": 6,
+          "type_component": "checkbox",
+          "type": "APD",
+          "value": false
+        },
+        {
+          "r_alat_pengaman_id": "ef5d5a4b-81fd-40cb-a77d-45b9434156a7",
+          "isactive": "Y",
+          "created": "2020-01-14T17:06:38.466Z",
+          "createdby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "updated": "2020-01-14T17:06:38.466Z",
+          "updatedby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "r_jenis_pengaman_id": "5742dd83-a515-466d-a936-5c341e850315",
+          "nama": "Sepatu Panjat",
+          "line": 7,
+          "type_component": "checkbox",
+          "type": "APD",
+          "value": false
+        },
+        {
+          "r_alat_pengaman_id": "8303a870-fa8c-4312-8904-f27727147a21",
+          "isactive": "Y",
+          "created": "2020-01-14T17:08:27.370Z",
+          "createdby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "updated": "2020-01-14T17:08:27.370Z",
+          "updatedby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "r_jenis_pengaman_id": "5742dd83-a515-466d-a936-5c341e850315",
+          "nama": "Jas Hujan",
+          "line": 8,
+          "type_component": "checkbox",
+          "type": "APD",
+          "value": false
+        },
+        {
+          "r_alat_pengaman_id": "46ec380a-65b1-45ba-abc2-22092aa1e9db",
+          "isactive": "Y",
+          "created": "2020-01-14T17:08:27.404Z",
+          "createdby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "updated": "2020-01-14T17:08:27.404Z",
+          "updatedby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "r_jenis_pengaman_id": "5742dd83-a515-466d-a936-5c341e850315",
+          "nama": "Sepatu Tahan Benturan",
+          "line": 9,
+          "type_component": "checkbox",
+          "type": "APD",
+          "value": true
+        },
+        {
+          "r_alat_pengaman_id": "2d276151-e57b-47c5-ace3-93d099694044",
+          "isactive": "Y",
+          "created": "2020-01-14T17:08:27.438Z",
+          "createdby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "updated": "2020-01-14T17:08:27.438Z",
+          "updatedby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "r_jenis_pengaman_id": "5742dd83-a515-466d-a936-5c341e850315",
+          "nama": "Sepatu Tahan Tegangan 20 kV",
+          "line": 10,
+          "type_component": "checkbox",
+          "type": "APD",
+          "value": true
+        },
+        {
+          "r_alat_pengaman_id": "4803565f-03b6-4ef3-af59-9aaba556da2c",
+          "isactive": "Y",
+          "created": "2020-01-14T17:08:27.484Z",
+          "createdby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "updated": "2020-01-14T17:08:27.484Z",
+          "updatedby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "r_jenis_pengaman_id": "5742dd83-a515-466d-a936-5c341e850315",
+          "nama": "Tongkat (Stock) Pentanahan",
+          "line": 11,
+          "type_component": "checkbox",
+          "type": "PKD",
+          "value": true
+        },
+        {
+          "r_alat_pengaman_id": "b16c2b3f-fe0c-4e7f-be24-5ba348ead292",
+          "isactive": "Y",
+          "created": "2020-01-14T17:08:27.530Z",
+          "createdby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "updated": "2020-01-14T17:08:27.530Z",
+          "updatedby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "r_jenis_pengaman_id": "5742dd83-a515-466d-a936-5c341e850315",
+          "nama": "Grounding Lokal",
+          "line": 12,
+          "type_component": "checkbox",
+          "type": "PKD",
+          "value": true
+        },
+        {
+          "r_alat_pengaman_id": "b3dd2c34-2131-4664-b5b6-889e17a944e5",
+          "isactive": "Y",
+          "created": "2020-01-14T17:08:27.565Z",
+          "createdby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "updated": "2020-01-14T17:08:27.565Z",
+          "updatedby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "r_jenis_pengaman_id": "5742dd83-a515-466d-a936-5c341e850315",
+          "nama": "Tester Tegangan",
+          "line": 13,
+          "type_component": "checkbox",
+          "type": "PKD",
+          "value": true
+        }
+      ]
+    },
+    {
+      "t_wp_formulir_2_id": "db58976e-a7fa-499d-bd3e-8d7976916392",
+      "isactive": "Y",
+      "created": "2020-05-23T15:53:30.267Z",
+      "createdby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+      "updated": "2020-05-23T15:53:30.267Z",
+      "updatedby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+      "t_wp_id": "e4b9d028-eb9a-4167-a377-de0c35c5c6e8",
+      "nama_pelaksana": "Ogah",
+      "r_tugas_pokok_id": {
+        "r_tugas_pokok_id": "42b24ebd-7865-4ce3-a2a5-1e232f2ae740",
+        "isactive": "Y",
+        "created": "2020-01-14T16:48:35.346Z",
+        "createdby": "caf1bec6-64d3-42d7-88bc-a00a137c7d1e",
+        "updated": "2020-01-14T16:48:35.346Z",
+        "updatedby": "caf1bec6-64d3-42d7-88bc-a00a137c7d1e",
+        "nama": "Eksekutor"
+      },
+      "r_kondisi_jasmani_id": {
+        "r_kondisi_jasmani_id": "bf1bcfa0-4132-4bfb-af54-241d21a4bc2e",
+        "isactive": "Y",
+        "created": "2020-01-14T16:59:31.499Z",
+        "createdby": "caf1bec6-64d3-42d7-88bc-a00a137c7d1e",
+        "updated": "2020-01-14T16:59:31.499Z",
+        "updatedby": "caf1bec6-64d3-42d7-88bc-a00a137c7d1e",
+        "nama": "SEHAT"
+      },
+      "r_kondisi_rohani_id": {
+        "r_kondisi_rohani_id": "30ec1d38-07eb-4a79-93db-84ead43efb2a",
+        "isactive": "Y",
+        "created": "2020-01-14T17:00:28.727Z",
+        "createdby": "caf1bec6-64d3-42d7-88bc-a00a137c7d1e",
+        "updated": "2020-01-14T17:00:28.727Z",
+        "updatedby": "caf1bec6-64d3-42d7-88bc-a00a137c7d1e",
+        "nama": "SIAP"
+      },
+      "r_disiplin_id": {
+        "r_disiplin_id": "c6f4b6a1-047d-4cb2-9d70-cbf554cbd2ef",
+        "isactive": "Y",
+        "created": "2020-01-14T16:55:50.047Z",
+        "createdby": "caf1bec6-64d3-42d7-88bc-a00a137c7d1e",
+        "updated": "2020-01-14T16:55:50.047Z",
+        "updatedby": "caf1bec6-64d3-42d7-88bc-a00a137c7d1e",
+        "nama": "Baik",
+        "kode": "B"
+      },
+      "r_penguasaaan_kompetensi_id": {
+        "r_penguasaaan_kompetensi_id": "4778dac3-98ea-4831-86b8-e161a984ed4c",
+        "isactive": "Y",
+        "created": "2020-01-14T16:58:06.387Z",
+        "createdby": "caf1bec6-64d3-42d7-88bc-a00a137c7d1e",
+        "updated": "2020-01-14T16:58:06.387Z",
+        "updatedby": "caf1bec6-64d3-42d7-88bc-a00a137c7d1e",
+        "kode": "V",
+        "nama": "Kompeten"
+      },
+      "signature": "null",
+      "line": 2,
+      "alatpengaman": [
+        {
+          "r_alat_pengaman_id": "7dcc834b-f759-4bb4-a69a-d7f32e233499",
+          "isactive": "Y",
+          "created": "2019-12-08T06:20:50.945Z",
+          "createdby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "updated": "2019-12-08T06:20:50.945Z",
+          "updatedby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "r_jenis_pengaman_id": "5ef6745e-8461-47a9-a2d6-f0f485a19bb1",
+          "nama": "Helm Pengaman",
+          "line": 1,
+          "type_component": "checkbox",
+          "type": "APD",
+          "value": false
+        },
+        {
+          "r_alat_pengaman_id": "e7b0335b-bbb2-44f5-93f5-6b14d99c3c7f",
+          "isactive": "Y",
+          "created": "2019-12-08T05:47:04.218Z",
+          "createdby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "updated": "2019-12-08T05:47:04.218Z",
+          "updatedby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "r_jenis_pengaman_id": "b7512390-6999-4eca-9ebb-c9b31d7adf95",
+          "nama": "Kacamata Tahan Silau",
+          "line": 2,
+          "type_component": "checkbox",
+          "type": "APD",
+          "value": false
+        },
+        {
+          "r_alat_pengaman_id": "73c358d9-3d29-4288-ad29-c27d82a2da4b",
+          "isactive": "Y",
+          "created": "2019-12-08T05:47:22.897Z",
+          "createdby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "updated": "2019-12-08T05:47:22.897Z",
+          "updatedby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "r_jenis_pengaman_id": "b7512390-6999-4eca-9ebb-c9b31d7adf95",
+          "nama": "Pakaian Kerja",
+          "line": 3,
+          "type_component": "checkbox",
+          "type": "PKD",
+          "value": false
+        },
+        {
+          "r_alat_pengaman_id": "4af27af1-a084-4052-bb9a-6bb5179e6249",
+          "isactive": "Y",
+          "created": "2019-12-08T05:49:33.254Z",
+          "createdby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "updated": "2019-12-08T05:49:33.254Z",
+          "updatedby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "r_jenis_pengaman_id": "5742dd83-a515-466d-a936-5c341e850315",
+          "nama": "Sabuk Pengaman",
+          "line": 4,
+          "type_component": "checkbox",
+          "type": "APD",
+          "value": false
+        },
+        {
+          "r_alat_pengaman_id": "daabf56e-d689-4b18-ac10-7d0425633a8a",
+          "isactive": "Y",
+          "created": "2019-12-22T10:45:39.172Z",
+          "createdby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "updated": "2019-12-22T10:45:39.172Z",
+          "updatedby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "r_jenis_pengaman_id": "5ef6745e-8461-47a9-a2d6-f0f485a19bb1",
+          "nama": "Sarung Tangan Kulit",
+          "line": 5,
+          "type_component": "checkbox",
+          "type": "APD",
+          "value": false
+        },
+        {
+          "r_alat_pengaman_id": "62ef5d44-323b-4fd2-bd22-446252087a80",
+          "isactive": "Y",
+          "created": "2019-12-22T11:31:53.848Z",
+          "createdby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "updated": "2019-12-22T11:31:53.848Z",
+          "updatedby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "r_jenis_pengaman_id": "5742dd83-a515-466d-a936-5c341e850315",
+          "nama": "Sarung Tangan Tahan Tegangan 1 kV/20kV",
+          "line": 6,
+          "type_component": "checkbox",
+          "type": "APD",
+          "value": false
+        },
+        {
+          "r_alat_pengaman_id": "ef5d5a4b-81fd-40cb-a77d-45b9434156a7",
+          "isactive": "Y",
+          "created": "2020-01-14T17:06:38.466Z",
+          "createdby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "updated": "2020-01-14T17:06:38.466Z",
+          "updatedby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "r_jenis_pengaman_id": "5742dd83-a515-466d-a936-5c341e850315",
+          "nama": "Sepatu Panjat",
+          "line": 7,
+          "type_component": "checkbox",
+          "type": "APD",
+          "value": false
+        },
+        {
+          "r_alat_pengaman_id": "8303a870-fa8c-4312-8904-f27727147a21",
+          "isactive": "Y",
+          "created": "2020-01-14T17:08:27.370Z",
+          "createdby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "updated": "2020-01-14T17:08:27.370Z",
+          "updatedby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "r_jenis_pengaman_id": "5742dd83-a515-466d-a936-5c341e850315",
+          "nama": "Jas Hujan",
+          "line": 8,
+          "type_component": "checkbox",
+          "type": "APD",
+          "value": false
+        },
+        {
+          "r_alat_pengaman_id": "46ec380a-65b1-45ba-abc2-22092aa1e9db",
+          "isactive": "Y",
+          "created": "2020-01-14T17:08:27.404Z",
+          "createdby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "updated": "2020-01-14T17:08:27.404Z",
+          "updatedby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "r_jenis_pengaman_id": "5742dd83-a515-466d-a936-5c341e850315",
+          "nama": "Sepatu Tahan Benturan",
+          "line": 9,
+          "type_component": "checkbox",
+          "type": "APD",
+          "value": true
+        },
+        {
+          "r_alat_pengaman_id": "2d276151-e57b-47c5-ace3-93d099694044",
+          "isactive": "Y",
+          "created": "2020-01-14T17:08:27.438Z",
+          "createdby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "updated": "2020-01-14T17:08:27.438Z",
+          "updatedby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "r_jenis_pengaman_id": "5742dd83-a515-466d-a936-5c341e850315",
+          "nama": "Sepatu Tahan Tegangan 20 kV",
+          "line": 10,
+          "type_component": "checkbox",
+          "type": "APD",
+          "value": true
+        },
+        {
+          "r_alat_pengaman_id": "4803565f-03b6-4ef3-af59-9aaba556da2c",
+          "isactive": "Y",
+          "created": "2020-01-14T17:08:27.484Z",
+          "createdby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "updated": "2020-01-14T17:08:27.484Z",
+          "updatedby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "r_jenis_pengaman_id": "5742dd83-a515-466d-a936-5c341e850315",
+          "nama": "Tongkat (Stock) Pentanahan",
+          "line": 11,
+          "type_component": "checkbox",
+          "type": "PKD",
+          "value": true
+        },
+        {
+          "r_alat_pengaman_id": "b16c2b3f-fe0c-4e7f-be24-5ba348ead292",
+          "isactive": "Y",
+          "created": "2020-01-14T17:08:27.530Z",
+          "createdby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "updated": "2020-01-14T17:08:27.530Z",
+          "updatedby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "r_jenis_pengaman_id": "5742dd83-a515-466d-a936-5c341e850315",
+          "nama": "Grounding Lokal",
+          "line": 12,
+          "type_component": "checkbox",
+          "type": "PKD",
+          "value": true
+        },
+        {
+          "r_alat_pengaman_id": "b3dd2c34-2131-4664-b5b6-889e17a944e5",
+          "isactive": "Y",
+          "created": "2020-01-14T17:08:27.565Z",
+          "createdby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "updated": "2020-01-14T17:08:27.565Z",
+          "updatedby": "6b2f1347-1645-4570-8815-5445ae5b6ab3",
+          "r_jenis_pengaman_id": "5742dd83-a515-466d-a936-5c341e850315",
+          "nama": "Tester Tegangan",
+          "line": 13,
+          "type_component": "checkbox",
+          "type": "PKD",
+          "value": true
+        }
+      ]
+    }
+  ],
+  "step2": [
+    {
+      "line": 0,
+      "urutan": 3,
+      "status": "Y",
+      "label": "Pembebasan Tegangan"
+    },
+    {
+      "line": 1,
+      "urutan": 1,
+      "status": "Y",
+      "label": "Pemeriksaan Tegangan TM & TR"
+    },
+    {
+      "line": 2,
+      "urutan": 1,
+      "status": "Y",
+      "label": "Pemasangan Grounding Lokal TM & TR"
+    },
+    {
+      "line": 3,
+      "urutan": 1,
+      "status": "Y",
+      "label": "Rantai Pengaman"
+    },
+    {
+      "line": 4,
+      "urutan": 1,
+      "status": "Y",
+      "label": "Rambu-rambu Peringatan"
+    },
+    {
+      "line": 5,
+      "urutan": 1,
+      "status": "Y",
+      "label": "Bendera Merah & Hijau",
+      "fixedstatus": true
+    },
+    {
+      "line": 6,
+      "urutan": 1,
+      "status": "Y",
+      "label": "Helm Pengaman"
+    },
+    {
+      "line": 7,
+      "urutan": 1,
+      "status": "Y",
+      "label": "Kacamata Tahan Silau"
+    },
+    {
+      "line": 8,
+      "urutan": 1,
+      "status": "Y",
+      "label": "Pakaian Kerja"
+    },
+    {
+      "line": 9,
+      "urutan": 1,
+      "status": "Y",
+      "label": "Sabuk Pengaman/ Safety Belt/ Body Harnest"
+    },
+    {
+      "line": 10,
+      "urutan": 1,
+      "status": "Y",
+      "label": "Sarung Tangan Kulit"
+    },
+    {
+      "line": 11,
+      "urutan": 1,
+      "status": "Y",
+      "label": "Sarung Tangan Tahan Teganganm 1kV/20kV"
+    },
+    {
+      "line": 12,
+      "urutan": 1,
+      "status": "Y",
+      "label": "Sepatu Panjat"
+    },
+    {
+      "line": 13,
+      "urutan": 1,
+      "status": "Y",
+      "label": "Sepatu Tahan Benturan"
+    },
+    {
+      "line": 14,
+      "urutan": 1,
+      "status": "Y",
+      "label": "Sepatu Tahan Tegangan 20 kV"
+    },
+    {
+      "line": 15,
+      "urutan": 1,
+      "status": "Y",
+      "label": "Tongkat (Stock) Pertahanan"
+    },
+    {
+      "line": 16,
+      "urutan": 1,
+      "status": "Y",
+      "label": "Grounding Lokal (Portable)"
+    },
+    {
+      "line": 17,
+      "urutan": 1,
+      "status": "Y",
+      "label": "Tester Tegangan"
+    }
+  ],
+  "step4": [
+    {
+      "tanggal": "2020-05-26",
+      "waktu_pukul": "09:57",
+      "nama_peralatan": "Praltan",
+      "status": "Stutas"
+    }
+  ],
+  "m_user_id": "6b2f1347-1645-4570-8815-5445ae5b6ab3"
+}
